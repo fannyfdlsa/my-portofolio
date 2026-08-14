@@ -142,7 +142,7 @@ class PortfolioController extends Controller
                         'PHP',
                         'REST API',
                     ],
-                    'github' => 'https://github.com/yourusername/portfolio',
+                    'github' => 'https://github.com/fannyfdlsa/portfolio-frontend',
                     'demo' => '#',
                 ],
             ],
