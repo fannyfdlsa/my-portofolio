@@ -26,6 +26,15 @@ function About({ profile }) {
                             continuously improving my technical skills through
                             real-world projects.
                         </p>
+
+                        <a
+                            href="/CV_Fanny%20Fadlilatunnisa.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="view-cv"
+                        >
+                            View CV
+                        </a>
                     </div>
 
                     <div className="about-info">

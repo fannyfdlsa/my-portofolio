@@ -13,7 +13,11 @@ function Contact({ profile }) {
                 </p>
 
                 <a
-                    href={`mailto:${profile.email}`}
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+                        profile.email
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn btn-primary"
                 >
                     Get In Touch

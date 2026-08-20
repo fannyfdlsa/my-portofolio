@@ -8,7 +8,9 @@ function Hero({ profile }) {
                     <h1>
                         {profile.name.split(" ")[0]}
                         <br />
-                        <span>{profile.name.split(" ").slice(1).join(" ")}</span>
+                        <span>
+                            {profile.name.split(" ").slice(1).join(" ")}
+                        </span>
                     </h1>
 
                     <h2>{profile.role}</h2>
@@ -31,17 +33,19 @@ function Hero({ profile }) {
                         <a
                             href={profile.github}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
                         >
-                            GitHub
+                            <i className="fa-brands fa-github"></i>
                         </a>
 
                         <a
                             href={profile.linkedin}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
                         >
-                            LinkedIn
+                            <i className="fa-brands fa-linkedin-in"></i>
                         </a>
                     </div>
                 </div>
@@ -59,15 +63,28 @@ function Hero({ profile }) {
                                 <span className="purple">const</span>{" "}
                                 developer = {"{"}
                             </p>
+
                             <p className="indent">
-                                name: <span className="green">"{profile.name}"</span>,
+                                name:{" "}
+                                <span className="green">
+                                    "{profile.name}"
+                                </span>
+                                ,
                             </p>
+
                             <p className="indent">
-                                role: <span className="green">"{profile.role}"</span>,
+                                role:{" "}
+                                <span className="green">
+                                    "{profile.role}"
+                                </span>
+                                ,
                             </p>
+
                             <p className="indent">
-                                passion: <span className="green">"Building"</span>
+                                passion:{" "}
+                                <span className="green">"Building"</span>
                             </p>
+
                             <p>{"};"}</p>
                         </div>
                     </div>
