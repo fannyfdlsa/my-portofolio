@@ -13,8 +13,9 @@ class PortfolioController extends Controller
             'success' => true,
             'data' => [
                 'name' => 'Fanny Fadlilatunnisa',
-                'role' => 'Backend Developer',
+                'role' => 'Developer',
                 'email' => 'fannyfadlila25@gmail.com',
+                'location' => 'Indonesia',
                 'description' => 'Bachelor’s degree in Informatics Engineering with experience in several software development projects.',
                 'github' => 'https://github.com/fannyfdlsa',
                 'linkedin' => 'https://www.linkedin.com/in/fanny-fadlilatunnisa/',
