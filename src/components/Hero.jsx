@@ -50,44 +50,11 @@ function Hero({ profile }) {
                     </div>
                 </div>
 
-                <div className="hero-card">
-                    <div className="code-window">
-                        <div className="window-header">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-
-                        <div className="code-content">
-                            <p>
-                                <span className="purple">const</span>{" "}
-                                developer = {"{"}
-                            </p>
-
-                            <p className="indent">
-                                name:{" "}
-                                <span className="green">
-                                    "{profile.name}"
-                                </span>
-                                ,
-                            </p>
-
-                            <p className="indent">
-                                role:{" "}
-                                <span className="green">
-                                    "{profile.role}"
-                                </span>
-                                ,
-                            </p>
-
-                            <p className="indent">
-                                passion:{" "}
-                                <span className="green">"Building"</span>
-                            </p>
-
-                            <p>{"};"}</p>
-                        </div>
-                    </div>
+                <div className="hero-photo">
+                        <img
+                            src="/images/images.png"
+                            alt="Fanny Fadlilatunnisa"
+                        />
                 </div>
             </div>
         </section>
